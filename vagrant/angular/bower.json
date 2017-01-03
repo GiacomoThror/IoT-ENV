@@ -1,0 +1,23 @@
+{
+  "name": "angular",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Giacomo Napoli <giacomonapoli@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/GiacomoThror/IoT-ENV",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "angular": "^1.6.1",
+    "bootstrap": "^3.3.7"
+  }
+}
