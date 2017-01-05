@@ -1,16 +1,17 @@
 {
-  "name": "test_node",
+  "name": "iot-env",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "Giacomo Napoli",
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0",
-    "mqtt": "^2.1.3",
+    "mqtt": "^2.2.0",
     "socket.io": "^1.7.2"
   }
 }
