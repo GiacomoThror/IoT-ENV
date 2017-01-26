@@ -46,8 +46,9 @@ def on_connect(mqttc, obj, flags, rc):
 
 def on_message(mqttc, obj, msg):
     print(msg.topic+" "+str(msg.qos)+" "+str(msg.payload))
-    # json_ser = json.loads(msg.payload)
-    # print (json_ser)
+    #json_ser = json.loads(msg.payload)
+    #print (json_ser)
+    print ("put on DB")
 
 
 def on_publish(mqttc, obj, mid):

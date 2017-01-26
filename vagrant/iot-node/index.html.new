@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="iot-env">
+  <head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+
+    <script type="text/javascript" src="core.js"></script>
+
+    <title>IoT-EnV</title>
+
+  </head>
+  <body>
+    <!--  Page Header  -->
+    <header>
+      <h1 class="text-center">IoT EnV</h1>
+      <h2 class="text-center">– Weather Forecast & Air Quality IoT Monitoring –</h2>
+    </header>
+
+  </body>
+</html>
